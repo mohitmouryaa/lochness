@@ -1,10 +1,10 @@
 import { lazy, memo } from "react";
 import { useRoutes } from "react-router-dom";
-import NotFound from "../pages/NotFound";
-import Login from "../pages/Auth/Login";
 
 // LAZY LOADING
-const HomeLayout: React.FC = lazy(() => import("../pages/home/HomeLayout"));
+const HomeLayout: React.FC = lazy(() => import("@/pages/home/HomeLayout"));
+const Login: React.FC = lazy(() => import("@/pages/auth/Login"));
+const NotFound: React.FC = lazy(() => import("@/pages/not-found"));
 
 // ROUTES
 const routes = [

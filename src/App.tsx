@@ -1,5 +1,5 @@
 import { memo, Suspense } from "react";
-import ErrorBoundary from "./pages/ErrorBoundary";
+import ErrorBoundary from "@/pages/error-boundary";
 import { BrowserRouter as Router } from "react-router-dom";
 import AppRoutes from "./routes";
 
