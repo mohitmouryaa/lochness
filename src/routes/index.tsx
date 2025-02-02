@@ -3,7 +3,7 @@ import { useRoutes } from "react-router-dom";
 
 // LAZY LOADING
 const HomeLayout: React.FC = lazy(() => import("@/pages/home/HomeLayout"));
-const Login: React.FC = lazy(() => import("@/pages/auth/Login"));
+const Login: React.FC = lazy(() => import("@/pages/Auth/Login"));
 const NotFound: React.FC = lazy(() => import("@/pages/not-found"));
 
 // ROUTES
